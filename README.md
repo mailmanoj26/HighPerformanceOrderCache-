@@ -19,6 +19,6 @@ A high-performance C++17 in-memory order cache and matching engine for financial
 - Matches 1M orders within the required ≤1500 NCUs threshold
 
 # Future Work
-• 	Multithreading for parallel matching
-• 	Persistence layer (database/file storage)
-• 	REST API integration for external systems
+- Multithreading for parallel matching
+- Persistence layer (database/file storage)
+- REST API integration for external systems
