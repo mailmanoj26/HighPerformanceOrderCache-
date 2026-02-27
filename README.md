@@ -22,3 +22,21 @@ A high-performance C++17 in-memory order cache and matching engine for financial
 - Multithreading for parallel matching
 - Persistence layer (database/file storage)
 - REST API integration for external systems
+
+
+# Build Instructions
+
+## Prerequisites
+- C++17 compiler (GCC 7+, Clang 5+, or MSVC 19.14+)
+- CMake 3.10+
+- Google Test (GTest) installed on your system
+- Make or equivalent build tool
+
+### Linux / macOS
+git clone https://github.com/mailmanoj26/HighPerformanceOrderCache.git
+cd HighPerformanceOrderCache
+./build.sh clean
+
+
+## Quick Build with g++ - Compiling directly without CMake:
+g++ --std=c++17 -O3 tests/OrderCacheTest.cpp src/OrderCache.cpp src/MatchingEngine.cpp -Iinclude -o HighPerformanceOrderCacheTests.exe -lgtest -lgtest_main -pthread
