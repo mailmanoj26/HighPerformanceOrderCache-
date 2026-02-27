@@ -34,7 +34,9 @@ A high-performance C++17 in-memory order cache and matching engine for financial
 
 ### Linux / macOS
 git clone https://github.com/mailmanoj26/HighPerformanceOrderCache.git
+
 cd HighPerformanceOrderCache
+
 ./build.sh clean
 
 
